@@ -1,0 +1,20 @@
+package raider.messages;
+
+option java_package = "com.kg.raider.pb";
+option java_outer_classname = "MetricBuffer";
+
+option optimize_for = SPEED;
+option java_multiple_files = true;
+
+message MetricPB {
+
+    // 1 - Key
+    required string key = 1;
+
+    // 2 - Time
+    required int64 timestamp = 2;
+
+    // 3 - Value
+    required float value = 3;
+
+}
