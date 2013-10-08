@@ -2,3 +2,9 @@
 *.iml
 raider-core/*.iml
 target/
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
