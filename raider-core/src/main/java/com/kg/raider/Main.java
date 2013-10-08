@@ -22,7 +22,7 @@ public class Main {
     public static void main(String[] args) {
         logger.info("starting raider");
 
-        // this is where all the internal components & services are started
+        // internal components & services are started here
         raider = new Raider();
 
         logger.info("registering shutdown hook");
